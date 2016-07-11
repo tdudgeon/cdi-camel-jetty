@@ -34,7 +34,7 @@ It is assumed a running Kubernetes platform is already running. If not you can f
 
 The example can be built and deployed using a single goal:
 
-    mvn -Pf8-local-deploy
+    mvn fabric8:run
 
 When the example runs in fabric8, you can use the OpenShift client tool to inspect the status
 
