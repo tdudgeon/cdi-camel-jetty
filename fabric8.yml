@@ -2,9 +2,9 @@
 buildName: "cdi-camel-jetty"
 links:
   Git: "https://github.com/tdudgeon/cdi-camel-jetty.git"
-  Job: "http://192.168.64.15:31378/job/cdi-camel-jetty"
-  Staging: "http://10.0.0.142:80/kubernetes/pods?namespace=default-staging"
-  Testing: "http://10.0.0.142:80/kubernetes/pods?namespace=default-testing"
+  Job: "http://192.168.64.17:31299/job/cdi-camel-jetty"
+  Staging: "http://10.0.0.242:80/kubernetes/pods?namespace=default-staging"
+  Testing: "http://10.0.0.242:80/kubernetes/pods?namespace=default-testing"
 environments:
   Testing: "default-testing"
   Staging: "default-staging"
